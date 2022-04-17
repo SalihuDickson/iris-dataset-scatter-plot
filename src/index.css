@@ -3,23 +3,48 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
 }
 
-pre {
-  font-size: 7em;
-}
 .tick line {
   stroke: #c0c0bb;
 }
 .tick text {
   fill: #635f5d;
+  cursor: default;
 }
-.mark {
-  fill: #137b80;
-}
-.axis-label {
+
+.axis-label,
+.dropdown-label {
   font-size: 2.5em;
+  color: #635f5d;
   fill: #635f5d;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+select option {
+  font-size: 1rem;
+}
+
+.Dropdown-root {
+  width: 300px;
+  display: inline-block;
+}
+
+.color-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 code {

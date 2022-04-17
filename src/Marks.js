@@ -4,6 +4,8 @@ const Marks = ({
   yScale,
   xValue,
   yValue,
+  colorScale,
+  colorValue,
   tooltipFormat,
   circleRadius,
 }) =>
@@ -12,6 +14,7 @@ const Marks = ({
       className="mark"
       cx={xScale(xValue(d))}
       cy={yScale(yValue(d))}
+      fill={colorScale(colorValue(d))}
       r={circleRadius}
     >
       <title>{tooltipFormat(xValue(d))}</title>
