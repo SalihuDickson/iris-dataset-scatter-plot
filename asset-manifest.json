@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iris-dataset-scatter-plot/static/css/main.fe04ab72.css",
-    "main.js": "/iris-dataset-scatter-plot/static/js/main.3efbd1e7.js",
+    "main.js": "/iris-dataset-scatter-plot/static/js/main.3226c5a6.js",
     "index.html": "/iris-dataset-scatter-plot/index.html",
     "main.fe04ab72.css.map": "/iris-dataset-scatter-plot/static/css/main.fe04ab72.css.map",
-    "main.3efbd1e7.js.map": "/iris-dataset-scatter-plot/static/js/main.3efbd1e7.js.map"
+    "main.3226c5a6.js.map": "/iris-dataset-scatter-plot/static/js/main.3226c5a6.js.map"
   },
   "entrypoints": [
     "static/css/main.fe04ab72.css",
-    "static/js/main.3efbd1e7.js"
+    "static/js/main.3226c5a6.js"
   ]
 }
