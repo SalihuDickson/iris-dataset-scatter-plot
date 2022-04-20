@@ -17,7 +17,9 @@ const Marks = ({
       fill={colorScale(colorValue(d))}
       r={circleRadius}
     >
-      <title>{tooltipFormat(xValue(d))}</title>
+      <title>{`${tooltipFormat(xValue(d))},  ${tooltipFormat(
+        yValue(d)
+      )}`}</title>
     </circle>
   ));
 
